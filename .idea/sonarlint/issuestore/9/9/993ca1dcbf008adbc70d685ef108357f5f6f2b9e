@@ -1,0 +1,13 @@
+
+b
+java:S3252"EUse static access with "javafx.application.Application" for "launch".(îªı»8­óÁŠŠ/
+T
+java:S1135"2Complete the task associated to this TODO comment.(Ìí½¶ûÿÿÿÿ8­óÁŠŠ/
+v
+java:S1450"TRemove the "group" field and declare it as a local variable in the relevant methods.(²Ïªøÿÿÿÿ8­óÁŠŠ/
+{
+java:S1450"^Remove the "battleshipBoard" field and declare it as a local variable in the relevant methods.(éÊü8 ×ıŒŠ/
+q
+java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(÷‘éÑ8İ®í‰/
+v
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8İ®í‰/

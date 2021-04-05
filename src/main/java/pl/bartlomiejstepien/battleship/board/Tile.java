@@ -1,18 +1,28 @@
 package pl.bartlomiejstepien.battleship.board;
 
-import javafx.scene.shape.Rectangle;
+import javafx.scene.Node;
+import javafx.scene.effect.*;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
 
-public class Tile
+public class Tile extends StackPane
 {
-    private Rectangle rectangle;
-    private int row;
-    private int column;
+    private final Node rectangle;
+    private final String name;
+    private final int row;
+    private final int column;
 
-    public Tile(int row, int column, Rectangle rectangle)
+    public Tile(String name, int row, int column, Node rectangle)
     {
+        super();
+        this.name = name;
         this.row = row;
         this.column = column;
         this.rectangle = rectangle;
+
+        if (rectangle != null)
+            getChildren().add(this.rectangle);
     }
 
     public int getRow()
@@ -25,8 +35,13 @@ public class Tile
         return column;
     }
 
-    public Rectangle getRectangle()
+    public Node getRectangle()
     {
         return rectangle;
+    }
+
+    public String getName()
+    {
+        return name;
     }
 }
